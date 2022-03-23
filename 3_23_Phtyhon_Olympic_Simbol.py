@@ -1,0 +1,22 @@
+import turtle
+t1=turtle.Turtle()
+
+t1.shape("turtle")
+t1.fillcolor("blue")
+t1.up()
+t1.goto(-200, -100)
+t1.down()
+t1.circle(30, 360, 3)
+t1.up()
+t1.fd(100)
+t1.down()
+t1.circle(30, 360 , 5)
+t1.circle(20, 360 , 4)
+t1.ht()
+t1.circle(50, 180 , 3)
+t1.circle(100, 180 ,3)
+t1.circle(100, 180 , 4)
+t1.circle(80, 120 , 2)
+
+# t1.clear()
+input("press any key to exit")
