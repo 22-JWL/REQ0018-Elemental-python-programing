@@ -1,1 +1,1 @@
-input("press any key to exit")
+import time
