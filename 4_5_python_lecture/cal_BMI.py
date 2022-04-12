@@ -1,0 +1,6 @@
+체중 = float(input("몸무게를 입력(kg): "))
+키=float(input("키를 입력(m): "))
+bmi = 체중/(키**2)
+print(f"BMI = : {체중/(키**2)}")
+print(f"BMI = : {bmi}")
+print("BMI %f" %bmi)

@@ -1,8 +1,7 @@
 import turtle
-import time
 t=turtle.Turtle()
-
-t.speed(5)
+s=turtle.Screen()
+t.speed(0)
 
 t.up()
 t.goto(-150,-150)
@@ -55,4 +54,4 @@ t.left(144)
 t.end_fill()
 t.hideturtle()
 
-time.sleep(5)
+s.mainloop()
