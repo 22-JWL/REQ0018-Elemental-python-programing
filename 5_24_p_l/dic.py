@@ -13,7 +13,7 @@ images=['img/tiger.gif', 'img/lion.gif', 'img/elephant.gif', 'img/rabbit.gif', '
 for a in images:
     s.addshape(a)
 
-    while True:
+while True:
         time.sleep(1); t.clear()
         word=turtle.textinput('한글단어입력', '호랑이, 사자, 코끼리, 토끼, 거북이, 상상부기 종료 중 선택')
         if word=='호랑이' or  word =='사자' or word =='코끼리' or word =='토끼' or word == '거북이' or word == '상상부기' or word == '종료':
